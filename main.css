@@ -2,6 +2,7 @@ h1 {
     color:purple;
     text-align: center;
     font-size: 100px;
+    margin:auto;
 }
 
 h2 {
@@ -12,4 +13,29 @@ h2 {
 
 body {
     background-color: red;
+}
+
+hr {
+    background-color:black;
+}
+
+ button { 
+    margin: auto;
+    padding: 6px;
+    background-color: black;
+    color: green;
+    border-radius: 5px;
+    font-size: 20px;
+    float:left;  
+    cursor:pointer;
+}
+
+.missed {
+    text-align: end;
+}
+
+.letter {
+    display:inline;
+    background-color: green;
+    color:black;
 }
